@@ -5,7 +5,7 @@ plugins {
 }
 
 android {
-    namespace = "cc.bbq.xq.oldest"
+    namespace = "cc.bbq.xq"
     compileSdk = 33
     
     defaultConfig {
