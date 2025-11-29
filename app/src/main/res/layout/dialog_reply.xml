@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+  
+    <EditText
+        android:id="@+id/etReply"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="输入评论内容"
+        android:inputType="textMultiLine"
+        android:minLines="3"
+        android:maxLines="5"/>
+      
+    <!-- 图片链接输入框 -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="图片链接 (可选)"
+        android:textSize="12sp"
+        android:layout_marginTop="12dp"/>
+      
+    <EditText
+        android:id="@+id/etImageUrl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="https://example.com/image.jpg"
+        android:inputType="textUri"/>
+      
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="多个图片用逗号分隔"
+        android:textSize="10sp"
+        android:textColor="#666666"/>
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<color name="white">#121212</color>
+<color name="text_primary">#CCCCCC</color>
+    <color name="message_like_bg">#1E3A2F</color> <!-- 点赞消息背景色 -->
+    <color name="message_comment_bg">#1A2D40</color> <!-- 评论消息背景色 -->
+    <color name="message_default_bg">#3E2E23</color> <!-- 默认消息背景色 -->
+
+</resources>

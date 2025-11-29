@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">小趣空间</string>
+    <string name="nav_header_subtitle">app.xiaoqu.online</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="app_name">BBQ</string>
+    <string name="reply_dialog_title">回复评论</string>
+    <string name="reply_hint">输入回复内容</string>
+    <string name="send_button">发送</string>
+    <string name="cancel_button">取消</string>
+    <string name="search_hint">搜索帖子.</string>
+<string name="no_users_found">没有找到用户</string>
+<string name="error_not_logged_in">请先登录</string>
+<string name="error_data_invalid">数据格式错误</string>
+<string name="error_unknown">未知错误</string>
+<string name="error_network">网络连接错误</string>
+<string name="retry">重试</string>
+</resources>

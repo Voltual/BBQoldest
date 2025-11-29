@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_home">
+
+    <!-- 原有导航项保持不变 -->
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="cc.bbq.xq.ui.home.HomeFragment"
+        android:label="首页"
+        tools:layout="@layout/fragment_home" />
+        
+    <!-- 新增资源广场导航项 -->
+    <fragment
+        android:id="@+id/nav_market"
+        android:name="cc.bbq.xq.ui.plaza.ResourcePlazaFragment"
+        android:label="资源广场"
+        tools:layout="@layout/fragment_resource_plaza" />
+    
+    <fragment
+        android:id="@+id/nav_login"
+        android:name="cc.bbq.xq.ui.auth.LoginFragment"
+        android:label="登录账号"
+        tools:layout="@layout/fragment_login" />
+    
+    <fragment
+        android:id="@+id/nav_community"
+        android:name="cc.bbq.xq.ui.community.CommunityFragment"
+        android:label="社区"
+        tools:layout="@layout/fragment_community" />
+        <!-- 在 mobile_navigation.xml 中添加 -->
+<activity
+    android:id="@+id/nav_messages"
+    android:name="cc.bbq.xq.ui.message.MessageCenterActivity"
+    android:label="消息中心" />
+    
+    <fragment
+        android:id="@+id/nav_browse_history"
+        android:name="cc.bbq.xq.ui.community.BrowseHistoryFragment"
+        android:label="浏览记录"
+        tools:layout="@layout/fragment_community" />
+    
+    <!-- 新增我喜欢的Fragment -->
+    <fragment
+        android:id="@+id/nav_my_likes"
+        android:name="cc.bbq.xq.ui.community.MyLikesFragment"
+        android:label="我喜欢的"
+        tools:layout="@layout/fragment_community" />
+    
+    <!-- 搜索Activity -->
+    <activity
+        android:id="@+id/nav_search"
+        android:name="cc.bbq.xq.ui.community.SearchActivity"
+        android:label="搜索" />
+   
+    <!-- 其他目的地 -->
+</navigation>
